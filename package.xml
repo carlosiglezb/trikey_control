@@ -1,0 +1,23 @@
+<package format="2">
+  <name>trikey_control</name>
+  <version>1.0.0</version>
+  <description>
+    <p>Controller for Trikey/Bumpybot</p>
+  </description>
+  <author>Carlos Gonzalez</author>
+  <maintainer email="carlos.gonzalez@utexas.edu" />
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>controller_manager</depend>
+  <depend>joint_state_controller</depend>
+  <depend>robot_state_publisher</depend>
+
+  <exec_depend>rviz</exec_depend>
+
+
+  <!-- <depend>effort_controllers</depend> -->
+
+</package>

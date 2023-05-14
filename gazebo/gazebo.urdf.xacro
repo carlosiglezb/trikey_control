@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<robot name="trikey">
+    <gazebo>
+        <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+            <robotNamespace>trikey</robotNamespace>
+            <controlPeriod>0.001</controlPeriod>
+            <robotParam>trikey</robotParam>
+        </plugin>
+    </gazebo>
+</robot>
