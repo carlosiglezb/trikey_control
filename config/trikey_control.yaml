@@ -10,7 +10,7 @@ trikey:
     joints: [wheel0_joint, wheel1_joint, wheel2_joint]
     interface_name: enp1s0
     #    wheel_encoder_counts: [10000, 10000, 8300]
-    wheel_encoder_counts: [8350, 8500, 8500]
+    wheel_encoder_counts: [8500, 8500, 10000]
     wheel_encoder_sign: [-1, -1, -1]
 
   # Publish all joint states -----------------------------------
